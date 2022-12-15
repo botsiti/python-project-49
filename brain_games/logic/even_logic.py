@@ -1,8 +1,10 @@
 from random import randint
-from brain_games.engine import *
+import prompt
 
 def even_game():
-    welcome_user()
+    print('Welcome to the Brain Games!')
+    name = prompt.string('May I have your name? ')
+    print(f'Hello, {name}!')
     print('Answer "yes" if the number is even, otherwise answer "no".')
     tries = 3
     while tries:
@@ -18,9 +20,12 @@ def even_game():
 
         user_answer = input()
         if user_answer == correct_answer:
-            print('Correct')
+            print('Correct!')
             tries -= 1
         else:
-            print(f'''{user_answer} is wrong answer ;(. Correct answer was "no"
-Let's try again, WHAT TO ADD''')
+            print(f''''{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'
+Let's try again, {name}''')
+            break
+        if tries == 0:
+            print(f'Congratulations, {name}!')
 
