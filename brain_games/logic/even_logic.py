@@ -18,7 +18,7 @@ def even_game():
             correct_answer = 'no'
 
 
-        user_answer = input()
+        user_answer = prompt.string('Your answer: ')
         if user_answer == correct_answer:
             print('Correct!')
             tries -= 1
