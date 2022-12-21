@@ -1,8 +1,6 @@
 from random import randint, choice
 
 
-
-
 def calc_elements(operator: str, number1: int, number2: int):
     if operator == '-':
         correct_answer = number1 - number2
@@ -12,11 +10,11 @@ def calc_elements(operator: str, number1: int, number2: int):
         correct_answer = number1 * number2
     return str(correct_answer)
 
+
 def random_number():
         return randint(1, 10)
 
 GAME_MESSAGE = 'What is the result of the expression?'
-
 
 
 def game_settings():
