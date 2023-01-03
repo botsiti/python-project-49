@@ -5,9 +5,14 @@
 [![asciicast](https://asciinema.org/a/545803.svg)](https://asciinema.org/a/545803)
 
 ### Игра Brain-calc
-Пользователю показывается случайное математическое выражение, например 35 + 16, которое нужно вычислить и записать правильный ответ.
+Пользователю показывается случайное математическое выражение, например **35 + 16**, которое нужно вычислить и записать правильный ответ.
 
 [![asciicast](https://asciinema.org/a/TFhigohoAuozr73WXebh0qqS2.svg)](https://asciinema.org/a/TFhigohoAuozr73WXebh0qqS2)
+
+### Игра Brain-GCD
+Необходимо реализовать игру "наибольший общий делитель (НОД)". Суть игры в следующем: пользователю показывается два случайных числа, например, **25** **50**. Пользователь должен вычислить и ввести наибольший общий делитель этих чисел.
+
+[![asciicast](https://asciinema.org/a/dsxTskNy8nxPW9CFDmRdSuyrh.svg)](https://asciinema.org/a/dsxTskNy8nxPW9CFDmRdSuyrh)
 
 
 ### Hexlet tests and linter status:
