@@ -10,9 +10,14 @@
 [![asciicast](https://asciinema.org/a/TFhigohoAuozr73WXebh0qqS2.svg)](https://asciinema.org/a/TFhigohoAuozr73WXebh0qqS2)
 
 ### Игра Brain-GCD
-Необходимо реализовать игру "наибольший общий делитель (НОД)". Суть игры в следующем: пользователю показывается два случайных числа, например, **25** **50**. Пользователь должен вычислить и ввести наибольший общий делитель этих чисел.
+Пользователю показывается два случайных числа, например, **25** **50**. Пользователь должен вычислить и ввести наибольший общий делитель этих чисел.
 
 [![asciicast](https://asciinema.org/a/dsxTskNy8nxPW9CFDmRdSuyrh.svg)](https://asciinema.org/a/dsxTskNy8nxPW9CFDmRdSuyrh)
+
+### Игра Brain-Progression
+Пользователю показывается ряд чисел, образующий **арифметическую прогрессию**, заменив любое из чисел двумя точками. Игрок должен определить это число.
+
+[![asciicast](https://asciinema.org/a/hBlQbRpRspMOLZGvInWJjiVGi.svg)](https://asciinema.org/a/hBlQbRpRspMOLZGvInWJjiVGi)
 
 
 ### Hexlet tests and linter status:
