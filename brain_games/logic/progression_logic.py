@@ -15,7 +15,7 @@ def game_settings():
         prog.append(first_num)
         first_num += iter
         total -= 1
-    dots = randint(0, length)
+    dots = randint(0, length - 1)
     correct_answer = prog[dots]
     prog[dots] = '..'
     string = " ".join(map(str, prog))
