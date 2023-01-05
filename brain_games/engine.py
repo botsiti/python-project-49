@@ -22,7 +22,7 @@ def game_engine(game):
         else:
             correct_answ = f"Correct answer was '{correct_answer}'"
             print(f"'{user_answer}' is wrong answer ;( {correct_answ}")
-            print(f"Let's try again, {name}")
+            print(f"Let's try again, {name}!")
 
             break
         if tries == 0:
