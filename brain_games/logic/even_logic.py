@@ -16,4 +16,3 @@ def game_settings():
     if number % 2 != 0:
         correct_answer = 'no'
     return question, correct_answer
-

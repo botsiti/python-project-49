@@ -13,10 +13,8 @@ def even_game(number):
     return "yes"
 
 
-
 def game_settings():
     number = randint(1, 100)
     question = f'Qestion: {number}'
     correct_answer = even_game(number)
     return question, correct_answer
-

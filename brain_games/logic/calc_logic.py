@@ -22,5 +22,3 @@ def game_settings():
     question = f'Question: {number1} {operator} {number2}'
     correct_answer: str = calc_elements(operator, number1, number2)
     return question, correct_answer
-
-

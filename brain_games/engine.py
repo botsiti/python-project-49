@@ -4,7 +4,7 @@ import prompt
 def welcome_user():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
-    print (f'Hello, {name}!')
+    print(f'Hello, {name}!')
     return name
 
 
@@ -17,11 +17,11 @@ def game_engine(game):
         print(question)
         user_answer = prompt.string('Your answer: ')
         if user_answer == str(correct_answer):
-                print('Correct')
-                tries -= 1
+            print('Correct')
+            tries -= 1
         else:
-                print(f''''{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'
+            print(f''''{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'
 Let's try again, {name}''')
-                break 
+            break
         if tries == 0:
-                print(f'Congratulations, {name}!')
+            print(f'Congratulations, {name}!')
