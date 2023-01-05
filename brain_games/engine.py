@@ -20,8 +20,10 @@ def game_engine(game):
             print('Correct')
             tries -= 1
         else:
-            print(f''''{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'
-Let's try again, {name}''')
+            correct_answ = f"Correct answer was '{correct_answer}'"
+            print(f"'{user_answer}' is wrong answer ;( {correct_answ}")
+            print(f"Let's try again, {name}")
+
             break
         if tries == 0:
             print(f'Congratulations, {name}!')
