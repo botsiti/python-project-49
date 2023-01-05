@@ -19,7 +19,7 @@ def game_settings():
     first_num = randint(1, 50)
     items = prog_settings(first_num)
     length = (len(items))
-    remove = randint(0, length)
+    remove = randint(0, length - 1)
     correct_answer = items[remove] 
     items[remove] = '..'
     question = f'Question: {items}'
