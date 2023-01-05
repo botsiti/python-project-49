@@ -18,6 +18,6 @@ def game_settings():
     dots = randint(0, length)
     correct_answer = prog[dots]
     prog[dots] = '..'
-    string = " ".join(map(str, prog[0:10]))
+    string = " ".join(map(str, prog))
     question = f'Question: {string}'
     return question, correct_answer
