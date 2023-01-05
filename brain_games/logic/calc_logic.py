@@ -11,15 +11,12 @@ def calc_elements(operator: str, number1: int, number2: int):
     return str(correct_answer)
 
 
-def random_number():
-        return randint(1, 10)
-
 GAME_MESSAGE = 'What is the result of the expression?'
 
 
 def game_settings():
-    number1 = random_number()
-    number2 = random_number()
+    number1 = randint(1, 10)
+    number2 = randint(1, 10)
     symbols = ('-', '+', '*')
     operator = choice(symbols)
     question = f'Question: {number1} {operator} {number2}'
