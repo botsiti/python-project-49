@@ -7,7 +7,7 @@ GAME_MESSAGE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 def prime_game(number):
     divider = number - 1
     while divider > 1:
-        if number % divider == 0:
+        if number % divider == 0 or number == 1:
             return False
         divider -= 1
     return True
