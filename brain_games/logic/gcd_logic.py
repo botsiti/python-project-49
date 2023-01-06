@@ -18,9 +18,9 @@ def gcdgame(num1: int, num2: int):
     return max(list)
 
 
-def game_settings():
+def get_game():
     num1 = random_number()
     num2 = random_number()
     question = f'Question: {num1} {num2}'
-    correct_answer: int = gcdgame(num1, num2)
+    correct_answer: str = gcdgame(num1, num2)
     return question, correct_answer

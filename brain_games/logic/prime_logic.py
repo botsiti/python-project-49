@@ -4,17 +4,20 @@ from random import randint
 GAME_MESSAGE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def even_game(number):
+def prime_game(number):
     divider = number - 1
     while divider > 1:
         if number % divider == 0:
-            return "no"
+            return False
         divider -= 1
-    return "yes"
+    return True
 
 
-def game_settings():
+def get_game():
     number = randint(1, 100)
     question = f'Question: {number}'
-    correct_answer = even_game(number)
+    if prime_game(number) is True:
+        correct_answer: str = 'yes'
+    else:
+        correct_answer: str = 'no'
     return question, correct_answer

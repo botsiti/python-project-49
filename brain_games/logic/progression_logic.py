@@ -4,20 +4,25 @@ from random import randint, choice
 GAME_MESSAGE = 'What number is missing in the progression?'
 
 
-def game_settings():
+def prog_setting(number):
     first_num = randint(1, 50)
-    length = randint(7, 10)
-    variants = (2, 3, 5)
-    iter = choice(variants)
+    step = (2, 3, 5)
+    iter = choice(step)
     prog = []
-    total = length
+    total = number
     while total:
         prog.append(first_num)
         first_num += iter
         total -= 1
-    dots = randint(0, length - 1)
-    correct_answer = prog[dots]
-    prog[dots] = '..'
+    return prog
+
+
+def get_game():
+    length = randint(7, 10)
+    prog = prog_setting(length)
+    random_index = randint(0, length - 1)
+    correct_answer: str = prog[random_index]
+    prog[random_index] = '..'
     string = " ".join(map(str, prog))
     question = f'Question: {string}'
     return question, correct_answer
