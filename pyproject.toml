@@ -1,9 +1,13 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "Terminal mini-games for your brain"
 authors = ["batraz <batrazbotsiev@gmail.com>"]
 readme = "README.md"
+repository = "https://github.com/botsiti/python-project-49"
+classifiers = [
+"Development Status :: 5 - Production/Stable"
+]
 packages = [{include = "brain_games"}]
 
 [tool.poetry.dependencies]
