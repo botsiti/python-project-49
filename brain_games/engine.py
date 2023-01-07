@@ -19,5 +19,4 @@ def game_engine(game):
                   f"answer was '{correct_answer}'")
             print(f"Let's try again, {name}!")
             return
-    if tries == 0:
         print(f'Congratulations, {name}!')

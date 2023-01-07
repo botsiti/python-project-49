@@ -31,6 +31,6 @@ The user is shown a series of numbers creating an **arithmetic progression**, bu
 [![asciicast](https://asciinema.org/a/hBlQbRpRspMOLZGvInWJjiVGi.svg)](https://asciinema.org/a/hBlQbRpRspMOLZGvInWJjiVGi)
 
 
-### Игра Brain-Prime
+### Brain-Prime
 The user is shown a random number. The user must write down *yes*, if the number is prime, otherwise *no*:
 [![asciicast](https://asciinema.org/a/C7sKZ9vcnhdEXdcdJ408hwJUG.svg)](https://asciinema.org/a/C7sKZ9vcnhdEXdcdJ408hwJUG)

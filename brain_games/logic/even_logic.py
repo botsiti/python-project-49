@@ -12,7 +12,7 @@ def is_even(number):
 def get_game():
     number = randint(1, 100)
     question = f'Question: {number}'
-    if is_even(number) is True:
+    if is_even(number):
         correct_answer: str = 'yes'
     else:
         correct_answer: str = 'no'

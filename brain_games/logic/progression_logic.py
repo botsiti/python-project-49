@@ -23,6 +23,6 @@ def get_game():
     random_index = randint(0, length - 1)
     correct_answer: str = prog[random_index]
     prog[random_index] = '..'
-    string = " ".join(map(str, prog))
-    question = f'Question: {string}'
+    str_progression = " ".join(map(str, prog))
+    question = f'Question: {str_progression}'
     return question, correct_answer
